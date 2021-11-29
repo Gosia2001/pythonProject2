@@ -8,3 +8,4 @@ while type(y) != int:
         print('Wprowadzono liczbę całkowitą.')
     except ValueError:
         print('Wprowadzono błędny znak, wprowadź znak ponownie')
+        hjo
