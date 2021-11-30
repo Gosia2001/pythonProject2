@@ -1,10 +1,10 @@
-from turtle import *
-color('red', 'yellow')
-begin_fill()
-while True:
-    forward(200)
-    left(170)
-    if abs(pos()) < 1:
-        break
-end_fill()
-done()
+import turtle
+t = turtle.Turtle()
+t.shape('turtle')
+t.forward(200)
+t.right(90)
+t.forward(150)
+t.right(90)
+t.forward(100)
+t.home()
+turtle.exitonclick()
